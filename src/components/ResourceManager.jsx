@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { supabase } from "../lib/supabase";
 import { uploadImage } from "../lib/uploadImage";
-import { dateTime, slugify } from "../lib/format";
+import { dateTime, slugify } from "../lib/Format";
 import { Badge, btn, btnGhost, Card, Field, input } from "./ui";
 
 /*

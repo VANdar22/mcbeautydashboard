@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { supabase } from "../lib/supabase";
 import { uploadImage } from "../lib/uploadImage";
-import { money, slugify } from "../lib/format";
+import { money, slugify } from "../lib/Format";
 import { Badge, btn, btnGhost, Card, Field, input } from "../components/ui";
 
 const TEXT_FIELDS = [
